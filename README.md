@@ -2,6 +2,9 @@
 
 ### Archived Github found here: https://github.com/drixevel-archive
 
+### Brief Summary
+My name's Keith, I go by the alias Drixevel on the internet. I'm a freelance software engineer who specializes in single player and multiplayer games.
+
 <!--
 **Drixevel/drixevel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
