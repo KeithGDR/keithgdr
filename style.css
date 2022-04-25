@@ -1,0 +1,67 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #131313;
+}
+
+.container {
+	background-color: #1b1b1b;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 250px;
+	padding-right: 250px;
+	text-align: center;
+	width: 50%;
+}
+
+.logo {
+	width: 100%;
+	height: 50%;
+	max-width: 300px;
+}
+
+.title {
+	color: #ffffff;
+	font-family: 'Kanit', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.bracket {
+	color: #919191;
+}
+
+.socials {
+	font-family: 'Kanit', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.socials a:link { color: #dcdcdc;text-decoration: none; }
+.socials a:visited { color: #dcdcdc;text-decoration: none; }
+.socials a:hover { color: #ffffff;text-decoration: underline; }
+.socials a:active { color: #ffffff;text-decoration: underline; }
+
+.payment-methods {
+	font-family: 'Kanit', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.payment-methods a:link { color: #dcdcdc;text-decoration: none; }
+.payment-methods a:visited { color: #dcdcdc;text-decoration: none; }
+.payment-methods a:hover { color: #ffffff;text-decoration: underline; }
+.payment-methods a:active { color: #ffffff;text-decoration: underline; }
+
+.email {
+	font-family: 'Kanit', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.email a:link { color: #dcdcdc; }
+.email a:visited { color: #dcdcdc; }
+.email a:hover { color: #ffffff; }
+.email a:active { color: #dcdcdc; }
