@@ -14,6 +14,8 @@ Statistics
 ======
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=drixevel-dev)](https://github.com/anuraghazra/github-readme-stats)
 
+![](https://komarev.com/ghpvc/?username=drixevel-dev)
+
 Contact Me
 ======
 * Contact: [contact@drixevel.dev]
