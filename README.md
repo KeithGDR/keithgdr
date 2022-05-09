@@ -5,6 +5,8 @@
 ### Brief Summary
 My name's Keith, I go by the alias Drixevel on the internet. I'm a freelance software engineer who specializes in single player and multiplayer games.
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=drixevel-dev)](https://github.com/anuraghazra/github-readme-stats)
+
 <!--
 **Drixevel/drixevel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
