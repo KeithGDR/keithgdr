@@ -1,6 +1,8 @@
 Hello
 ======
 
+### [https://drixevel.dev/]
+
 Brief Information
 ======
 * I'm currently a freelance software engineer.
@@ -8,7 +10,14 @@ Brief Information
 * I'm fluent at GO, Python, C, C#, C++, Rust, LUA, Typescript, PHP and most other languages in that order of skill.
 * I'm accepting paid work and software positions currently.
 
+Statistics
+======
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=drixevel-dev)](https://github.com/anuraghazra/github-readme-stats)
+
+Contact Me
+======
+* Contact: [contact@drixevel.dev]
+* Business: [business@drixevel.dev]
 
 <!--
 **Drixevel/drixevel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
