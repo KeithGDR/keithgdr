@@ -1,9 +1,12 @@
-### Hi there 👋
+Hello
+======
 
-### Archived Github found here: https://github.com/drixevel-archive
-
-### Brief Summary
-My name's Keith, I go by the alias Drixevel on the internet. I'm a freelance software engineer who specializes in single player and multiplayer games.
+Brief Information
+======
+* I'm currently a freelance software engineer.
+* I'm fluent in making Sourcemod projects for most Source games such as Team Fortress 2, Counter-Strike: GO and Left 4 Dead 2.
+* I'm fluent at GO, Python, C, C#, C++, Rust, LUA, Typescript, PHP and most other languages in that order of skill.
+* I'm accepting paid work and software positions currently.
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=drixevel-dev)](https://github.com/anuraghazra/github-readme-stats)
 
