@@ -1,5 +1,5 @@
 html, body {
-	height: 100%;
+	height: 120%;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 	background-color: #1b1b1b;
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 35%;
 	transform: translate(-50%, -50%);
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -56,12 +56,36 @@ body {
 .payment-methods a:hover { color: #ffffff;text-decoration: underline; }
 .payment-methods a:active { color: #ffffff;text-decoration: underline; }
 
-.email {
+.contact {
 	font-family: 'Kanit', sans-serif;
 	font-family: 'Roboto Mono', monospace;
 }
 
-.email a:link { color: #dcdcdc; }
-.email a:visited { color: #dcdcdc; }
-.email a:hover { color: #ffffff; }
-.email a:active { color: #dcdcdc; }
+.contact a:link { color: #dcdcdc;text-decoration: none; }
+.contact a:visited { color: #dcdcdc;text-decoration: none; }
+.contact a:hover { color: #ffffff;text-decoration: underline; }
+.contact a:active { color: #dcdcdc;text-decoration: underline; }
+
+.container-2 {
+	background-color: #1b1b1b;
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	transform: translate(-50%, -50%);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 250px;
+	padding-right: 250px;
+	text-align: center;
+	width: 50%;
+}
+
+.games {
+	font-family: 'Kanit', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.games a:link { color: #dcdcdc;text-decoration: none; }
+.games a:visited { color: #dcdcdc;text-decoration: none; }
+.games a:hover { color: #ffffff;text-decoration: underline; }
+.games a:active { color: #dcdcdc;text-decoration: underline; }
