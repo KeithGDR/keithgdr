@@ -1,19 +1,55 @@
+/* -- Fonts -- */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Mono:wght@300&display=swap');
+
+/* -- HTML/Body -- */
 html, body {
 	height: 120%;
 }
 
 body {
 	background-color: #131313;
+	animation: 2s ease 0s 1 fade;
 }
 
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/* -- Buttons -- */
+.button {
+	padding: 5px 10px;
+	background-color: #292929;
+	border-radius: 20px;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 5px;
+	vertical-align: bottom;
+	transition: all 200ms ease-in-out;
+	color: #dcdcdc;
+}
+
+.button:hover {
+	transform: scale(1.1);
+	background-color: #dcdcdc;
+	color: #292929;
+	transition: all 200ms ease-in-out;
+	cursor: pointer;
+}
+
+/* -- Main -- */
 .container-main {
 	background-color: #1b1b1b;
 	position: absolute;
 	left: 50%;
 	top: 35%;
 	transform: translate(-50%, -50%);
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	padding-left: 250px;
 	padding-right: 250px;
 	text-align: center;
@@ -24,17 +60,17 @@ body {
 	width: 100%;
 	height: 50%;
 	max-width: 150px;
-	animation: rotation 32s infinite linear;
+	/*animation: rotation 32s infinite linear;*/
 }
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
+/*@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}*/
 
 .title {
 	color: #ffffff;
@@ -59,7 +95,7 @@ body {
 .socials a:link {
 	color: #dcdcdc;
 	text-decoration: none;
-	border-left:1px solid #bbb;
+	/*border-left:1px solid #bbb;*/
 }
 .socials a:visited {
 	color: #dcdcdc;
@@ -81,7 +117,7 @@ body {
 .payment-methods a:link {
 	color: #dcdcdc;
 	text-decoration: none;
-	border-left:1px solid #bbb;
+	/*border-left:1px solid #bbb;*/
 }
 .payment-methods a:visited {
 	color: #dcdcdc;
@@ -103,7 +139,7 @@ body {
 .contact a:link {
 	color: #dcdcdc;
 	text-decoration: none; 
-	border-left:1px solid #bbb;
+	/*border-left:1px solid #bbb;*/
 }
 .contact a:visited {
 	color: #dcdcdc;
@@ -118,14 +154,15 @@ body {
 	text-decoration: underline;
 }
 
+/* -- Games -- */
 .container-games {
 	background-color: #1b1b1b;
 	position: absolute;
 	left: 50%;
-	top: 80%;
+	top: 72%;
 	transform: translate(-50%, -50%);
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-left: 250px;
 	padding-right: 250px;
 	text-align: center;
@@ -151,4 +188,65 @@ body {
 .games a:active {
 	color: #dcdcdc;
 	text-decoration: underline;
+}
+
+/* -- Footer -- */
+.container-footer {
+	background-color: #1b1b1b;
+	position: absolute;
+	left: 50%;
+	top: 86%;
+	transform: translate(-50%, -50%);
+	padding-left: 250px;
+	padding-right: 250px;
+	text-align: center;
+	width: 50%;
+}
+
+.footer {
+	color: #dcdcdc;
+	text-decoration: none;
+	font-family: 'Kanit', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+}
+.footer a:link {
+	color: #dcdcdc;
+	text-decoration: none;
+}
+.footer a:visited {
+	color: #dcdcdc;
+	text-decoration: none;
+}
+.footer a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.footer a:active {
+	color: #dcdcdc;
+	text-decoration: underline;
+}
+
+/* -- Scrollbar -- */
+
+/* Firefox */
+
+* {
+    scrollbar-width: none;
+    scrollbar-color: #dcdcdc #151515;
+}
+
+/* Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #151515;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    border: 0px none #ffffff;
 }
