@@ -159,7 +159,7 @@ body {
 	background-color: #1b1b1b;
 	position: absolute;
 	left: 50%;
-	top: 72%;
+	top: 71%;
 	transform: translate(-50%, -50%);
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -190,12 +190,48 @@ body {
 	text-decoration: underline;
 }
 
+/* -- Projects -- */
+.container-projects {
+	background-color: #1b1b1b;
+	position: absolute;
+	left: 50%;
+	top: 94%;
+	transform: translate(-50%, -50%);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 250px;
+	padding-right: 250px;
+	text-align: center;
+	width: 50%;
+}
+
+.projects {
+	font-family: 'Kanit', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+}
+.projects a:link {
+	color: #dcdcdc;
+	text-decoration: none;
+}
+.projects a:visited {
+	color: #dcdcdc;
+	text-decoration: none;
+}
+.projects a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.projects a:active {
+	color: #dcdcdc;
+	text-decoration: underline;
+}
+
 /* -- Footer -- */
 .container-footer {
 	background-color: #1b1b1b;
 	position: absolute;
 	left: 50%;
-	top: 86%;
+	top: 110%;
 	transform: translate(-50%, -50%);
 	padding-left: 250px;
 	padding-right: 250px;
