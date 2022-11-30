@@ -172,6 +172,29 @@ body {
 	text-decoration: underline;
 }
 
+/* -- Child - Info -- */
+.info {
+	font-family: 'Kanit', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	color: #dcdcdc;
+}
+.info a:link {
+	color: #dcdcdc;
+	text-decoration: none;
+}
+.info a:visited {
+	color: #dcdcdc;
+	text-decoration: none;
+}
+.info a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.info a:active {
+	color: #dcdcdc;
+	text-decoration: underline;
+}
+
 /* -- Child - Projects -- */
 .projects {
 	font-family: 'Kanit', sans-serif;
@@ -261,6 +284,11 @@ body {
     background-color: #dcdcdc;
     border-radius: 5px;
     border: 0px none #ffffff;
+}
+
+/* -- Separator -- */
+hr.solid {
+	border-top: 1px solid rgb(255, 255, 255);
 }
 
 /* -- Scrollbar -- */
