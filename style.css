@@ -262,3 +262,21 @@ body {
     border-radius: 5px;
     border: 0px none #ffffff;
 }
+
+/* -- Scrollbar -- */
+@media screen and (max-width: 600px) {
+	.container {
+		width: 90%;
+		font-size: var(--font-small-mobile);
+	}
+	.child {
+		width: 90%;
+		font-size: var(--font-small-mobile);
+	}
+	h1 {
+		font-size: 1rem;
+	}
+	h5 {
+		font-size: 1rem;
+	}
+}
