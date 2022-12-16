@@ -1,7 +1,7 @@
 Hello
 ======
 
-### [https://drixevel.dev/]
+### https://drixevel.dev/
 
 Brief Information
 ======
