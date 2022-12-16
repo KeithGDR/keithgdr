@@ -18,8 +18,7 @@ Statistics
 
 Contact Me
 ======
-* Contact: [contact@drixevel.dev]
-* Business: [business@drixevel.dev]
+* Email: [contact@drixevel.dev]
 
 <!--
 **Drixevel/drixevel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
