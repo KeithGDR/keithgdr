@@ -16,9 +16,7 @@ Statistics
 
 ![](https://komarev.com/ghpvc/?username=drixevel-dev)
 
-Contact Me
-======
-* Email: contact@drixevel.dev
+[Contact Me](mailto:contact@drixevel.dev)
 
 <!--
 **Drixevel/drixevel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
