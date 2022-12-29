@@ -1,9 +1,4 @@
-Hello
-======
-
-### https://drixevel.dev/
-
-Brief Information
+Information
 ======
 * I'm currently a freelance software engineer.
 * I'm fluent in making Sourcemod projects for most Source games such as Team Fortress 2, Counter-Strike: GO and Left 4 Dead 2.
@@ -15,8 +10,6 @@ Statistics
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=drixevel-dev)](https://github.com/anuraghazra/github-readme-stats)
 
 ![](https://komarev.com/ghpvc/?username=drixevel-dev)
-
-[Contact Me](mailto:contact@drixevel.dev)
 
 <!--
 **Drixevel/drixevel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
