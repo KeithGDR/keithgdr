@@ -1,11 +1,10 @@
-Information
+Information - https://drixevel.dev/
 ======
 * I'm currently a freelance software engineer.
 * I'm fluent in making Sourcemod projects for most Source games such as Team Fortress 2, Counter-Strike: GO and Left 4 Dead 2.
 * I'm accepting paid work and software positions currently.
 
 [![My Skills](https://skillicons.dev/icons?i=go,python,c,cs,cpp,rust,lua,html,css,php,javascript)](https://skillicons.dev)
-
 
 Statistics
 ======
