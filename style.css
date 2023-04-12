@@ -78,6 +78,23 @@ body {
 	font-family: 'Kanit', sans-serif;
 	font-family: 'Roboto Mono', monospace;
 }
+.description a:link {
+	color: #dcdcdc;
+	text-decoration: underline;
+	text-underline-offset: 8px;
+}
+.description a:visited {
+	color: #dcdcdc;
+	text-decoration: underline;
+}
+.description a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.description a:active {
+	color: #ffffff;
+	text-decoration: underline;
+}
 
 /* -- Bracket -- */
 .bracket {
@@ -111,12 +128,12 @@ body {
 	font-family: 'Roboto Mono', monospace;
 }
 .socials a:link {
-	color: #dcdcdc;
+	color: #ffffff;
 	text-decoration: none;
 	/*border-left:1px solid #bbb;*/
 }
 .socials a:visited {
-	color: #dcdcdc;
+	color: #ffffff;
 	text-decoration: none;
 }
 .socials a:hover {
