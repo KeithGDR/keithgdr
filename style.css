@@ -86,6 +86,28 @@ body {
 	cursor: pointer;
 }
 
+/* -- Business -- */
+.business {
+	color: #ffffff;
+	font-family: 'Roboto Mono', monospace;
+}
+.business a:link {
+	color: #dcdcdc;
+	text-decoration: none;
+}
+.business a:visited {
+	color: #dcdcdc;
+	text-decoration: none;
+}
+.business a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.business a:active {
+	color: #dcdcdc;
+	text-decoration: underline;
+}
+
 /* -- Child - Projects -- */
 .projects {
 	font-family: 'Roboto Mono', monospace;
