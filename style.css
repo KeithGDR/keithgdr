@@ -1,18 +1,12 @@
 /* -- Fonts -- */
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Mono:wght@300&display=swap');
-
-/* -- Body -- */
-html {
-    height: 100%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 /* -- Body -- */
 body {
-	background-image: url('images/background.png');
+	background-image: url('images/background.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 	animation: 2s ease 0s 1 fade;
-	height: 100%
 }
 
 /* -- Variables -- */
@@ -25,13 +19,12 @@ body {
 	}
 }
 
-/* -- Container -- */
-.container {
+/* -- Main -- */
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     text-align: center;
 }
 
@@ -84,28 +77,6 @@ body {
 	color: #292929;
 	transition: all 200ms ease-in-out;
 	cursor: pointer;
-}
-
-/* -- Business -- */
-.business {
-	color: #ffffff;
-	font-family: 'Roboto Mono', monospace;
-}
-.business a:link {
-	color: #dcdcdc;
-	text-decoration: none;
-}
-.business a:visited {
-	color: #dcdcdc;
-	text-decoration: none;
-}
-.business a:hover {
-	color: #ffffff;
-	text-decoration: underline;
-}
-.business a:active {
-	color: #dcdcdc;
-	text-decoration: underline;
 }
 
 /* -- Child - Projects -- */
@@ -185,7 +156,7 @@ hr.solid {
 
 /* -- Scrollbar -- */
 @media screen and (max-width: 600px) {
-	.container {
+	main {
 		width: 90%;
 		font-size: var(--font-small-mobile);
 	}
