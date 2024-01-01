@@ -1,9 +1,8 @@
 Information
 ======
 * I'm a programmer, modeler and artist working on projects and freelancing on the side.
-* I'm fluent in making projects for most Source games such as Team Fortress 2, Counter-Strike 2 and Left 4 Dead 2.
 
-[![My Skills](https://skillicons.dev/icons?i=go,python,c,cs,cpp,rust,lua,html,css,php,javascript)](https://skillicons.dev)
+<!--[![My Skills](https://skillicons.dev/icons?i=)](https://skillicons.dev)-->
 
 Statistics
 ======
