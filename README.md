@@ -2,7 +2,7 @@ Information
 ======
 * I'm a programmer, modeler and artist working on projects and freelancing on the side.
 
-<!--[![My Skills](https://skillicons.dev/icons?i=)](https://skillicons.dev)-->
+<!--[![My Skills](https://skillicons.dev/icons?i=blender,bootstrap,c,cs,cpp,cloudflare,css,discord,bots,dotnet,electron,express,flask,gamemakerstudio,git,github,gmail,go,godot,html,js,linux,lua,mysql,nginx,nodejs,php,py,twitter,unity,unreal,visualstudio,vscode,)](https://skillicons.dev)-->
 
 Statistics
 ======
