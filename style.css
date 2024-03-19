@@ -1,22 +1,29 @@
+:root {
+    --main-font: 'Roboto Mono', monospace;
+    --main-color: #dcdcdc;
+    --secondary-color: #292929;
+    --font-small-mobile: 14px;
+}
+
 /* -- Fonts -- */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 /* -- Body -- */
 body {
-	background-image: url('images/background.jpg');
-	background-attachment: fixed;
-	background-size: cover;
-	animation: 2s ease 0s 1 fade;
+    background-image: url('images/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    animation: 2s ease 0s 1 fade;
 }
 
 /* -- Variables -- */
 @keyframes fade {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /* -- Main -- */
@@ -30,100 +37,86 @@ main {
 
 /* -- Sub Container -- */
 .sub-container {
-	width: 100%;
-	padding: 5px 5px;
-	margin:5px 20px;
-	background: #1b1b1b;
-	border: 2px solid black;
+    width: 100%;
+    padding: 5px 5px;
+    margin:5px 20px;
+    background: #1b1b1b;
+    border: 2px solid black;
 }
 
 /* -- Sub Container - Main -- */
 /* -- Logo -- */
 .logo {
-	width: 100%;
-	height: 50%;
-	max-width: 250px;
-	margin-top: 5px;
+    width: 100%;
+    height: 50%;
+    max-width: 250px;
+    margin-top: 5px;
 }
 
-/* -- Title -- */
-.title {
-	color: #ffffff;
-	font-family: 'Roboto Mono', monospace;
-}
-
-/* -- Description -- */
-.description {
-	color: #ffffff;
-	font-family: 'Roboto Mono', monospace;
+/* -- Title, Description -- */
+.title, .description {
+    color: var(--main-color);
+    font-family: var(--main-font);
 }
 
 /* -- Buttons -- */
 .button {
-	padding: 5px 10px;
-	background-color: #292929;
-	border-radius: 20px;
-	position: relative;
-	display: inline-block;
-	margin-bottom: 5px;
-	vertical-align: bottom;
-	transition: all 200ms ease-in-out;
-	color: #dcdcdc;
+    padding: 5px 10px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: bottom;
+    transition: all 200ms ease-in-out;
+    color: var(--main-color);
 }
 
 .button:hover {
-	transform: scale(1.1);
-	background-color: #dcdcdc;
-	color: #292929;
-	transition: all 200ms ease-in-out;
-	cursor: pointer;
+    transform: scale(1.1);
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
 }
 
 /* -- Child - Projects -- */
 .projects {
-	font-family: 'Roboto Mono', monospace;
-	padding: 2%;
-	display: flex;
-	justify-content: center;
+    font-family: var(--main-font);
+    padding: 2%;
+    display: flex;
+    justify-content: center;
 }
-.projects a:link {
-	color: #dcdcdc;
-	text-decoration: none;
-}
-.projects a:visited {
-	color: #dcdcdc;
-	text-decoration: none;
+.projects a:link, a:visited {
+    color: var(--main-color);
+    text-decoration: none;
 }
 .projects a:hover {
-	color: #ffffff;
-	text-decoration: underline;
+    color: #ffffff;
+    text-decoration: underline;
 }
 .projects a:active {
-	color: #dcdcdc;
-	text-decoration: underline;
+    color: var(--main-color);
+    text-decoration: underline;
 }
 
 /* -- Child - Footer -- */
 .footer {
-	color: #dcdcdc;
-	text-decoration: none;
-	font-family: 'Roboto Mono', monospace;
+    color: var(--main-color);
+    text-decoration: none;
+    font-family: var(--main-font);
 }
-.footer a:link {
-	color: #dcdcdc;
-	text-decoration: none;
-}
-.footer a:visited {
-	color: #dcdcdc;
-	text-decoration: none;
+.footer a:link, a:visited {
+    color: var(--main-color);
+    text-decoration: none;
 }
 .footer a:hover {
-	color: #ffffff;
-	text-decoration: underline;
+    color: #ffffff;
+    text-decoration: underline;
 }
 .footer a:active {
-	color: #dcdcdc;
-	text-decoration: underline;
+    color: var(--main-color);
+    text-decoration: underline;
 }
 
 /* -- Scrollbar -- */
@@ -131,7 +124,7 @@ main {
 /* Firefox */
 * {
     scrollbar-width: none;
-    scrollbar-color: #dcdcdc #151515;
+    scrollbar-color: var(--main-color) #151515;
 }
 
 /* Chrome, Edge, and Safari */
@@ -144,30 +137,30 @@ main {
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #dcdcdc;
+    background-color: var(--main-color);
     border-radius: 5px;
     border: 0px none #ffffff;
 }
 
 /* -- Separator -- */
 hr.solid {
-	border-top: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
 }
 
 /* -- Scrollbar -- */
 @media screen and (max-width: 600px) {
-	main {
-		width: 90%;
-		font-size: var(--font-small-mobile);
-	}
-	.child {
-		width: 90%;
-		font-size: var(--font-small-mobile);
-	}
-	h1 {
-		font-size: 1%;
-	}
-	h5 {
-		font-size: 1%;
-	}
+    main {
+        width: 90%;
+        font-size: var(--font-small-mobile);
+    }
+    .child {
+        width: 90%;
+        font-size: var(--font-small-mobile);
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h5 {
+        font-size: 1em;
+    }
 }

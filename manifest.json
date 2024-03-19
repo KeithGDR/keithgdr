@@ -1,6 +1,6 @@
 {
-	"short_name": "",
-	"name": "",
+	"short_name": "drixevel.dev",
+	"name": "Drixevel's Website",
 	"icons": [
 	{
 		"src":"",
@@ -8,8 +8,8 @@
 		"type": ""
 	}
 	],
-	"start_url": "",
-	"background_color": "",
-	"Theme_color": "",
-	"display": ""
+	"start_url": "https://drixevel.dev/",
+	"background_color": "#000000",
+	"Theme_color": "#000000",
+	"display": "browser"
 }
