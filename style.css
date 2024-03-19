@@ -53,10 +53,23 @@ main {
     margin-top: 5px;
 }
 
-/* -- Title, Description -- */
-.title, .description {
+/* -- Title, Description, About-Me -- */
+.title, .description, .about-me {
     color: var(--main-color);
     font-family: var(--main-font);
+}
+
+/* -- About-Me -- */
+.about-me {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.splitter {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--main-color), rgba(0, 0, 0, 0));
 }
 
 /* -- Buttons -- */
