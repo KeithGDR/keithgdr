@@ -14,10 +14,12 @@
 	<link rel="apple-touch-icon" href="images/meta-image.png">
 </head>
 <body>
+	<div id="background"></div>
+	<script src="background-animations.js"></script>
 	<main>
 		<header>
 			<div class="sub-container">
-				<a href="index.html">
+				<a href="/index.html">
 					<picture>
 						<source srcset="images/logo.webp" type="image/webp" class="logo">
 						<source srcset="images/logo.png" type="image/png" class="logo">
@@ -25,7 +27,7 @@
 					</picture>
 				</a>
 				<header class="title">
-					<a href="about.html"><h1>Drixevel</h1></a>
+					<a href="/about.html"><h1>Drixevel (DRIKS-eh-vel)</h1></a>
 				</header>
 				<section class="description">
 					<h3>Game Developer/Modder & 3D Artist</h3>
@@ -37,18 +39,14 @@
 						<a href="https://youtube.com/@Drixevel/"><span class="button"><img src="images/socials/youtube.png" alt="YouTube"></span></a>
 						<a href="https://twitch.tv/drixevel"><span class="button"><img src="images/socials/twitch.png" alt="Twitch"></span></a>
 						<a href="https://github.com/drixevel-dev"><span class="button"><img src="images/socials/github.png" alt="Github"></span></a>
-						<br />
 						<a href="https://drixevel.itch.io/"><span class="button"><img src="images/socials/itch.png" alt="Itch"></span></a>
-						<a href="https://discord.gg/cwgBQhWMDg"><span class="button"><img src="images/socials/discord.png" alt="Discord"></span></a>
 						<a href="https://steamcommunity.com/id/drixevel/"><span class="button"><img src="images/socials/steam.png" alt="Steam"></span></a>
 						<a href="https://open.spotify.com/user/12181748196?si=RCWDZ1mKSVeM-e0IlgvWyQ"><span class="button"><img src="images/socials/spotify.png" alt="Spotify"></span></a>
+						<span class="button" data-clipboard-text="Drixevel" title="Click to copy 'Drixevel'">
+							<img src="images/socials/discord.png" alt="Discord">
+							<span class="tooltip" style="display: none;">Username Copied</span>
+						</span>
 						<a href="mailto:contact@drixevel.dev"><span class="button"><img src="images/socials/email.png" alt="Email"></span></a>
-						<!-- <a href="https://tiktok.com/@drixevel"><span class="button"><img src="images/socials/tiktok.png" alt="TikTok"></span></a> -->
-						<!-- <a href="https://threads.net/@drixevel"><span class="button"><img src="images/socials/threads.png" alt="Threads"></span></a> -->
-						<!-- <a href="https://bsky.app/profile/drixevel.bsky.social"><span class="button"><img src="images/socials/bsky.png" alt="BSky"></span></a> -->
-						<!-- <a href="https://artstation.com/drixevel"><span class="button"><img src="images/socials/artstation.png" alt="ArtStation"></span></a> -->
-						<!-- <a href="https://instagram.com/drixevel/"><span class="button"><img src="images/socials/instagram.png" alt="Instagram"></span></a> -->
-						<!-- <a href="https://ko-fi.com/drixevel"><span class="button"><img src="images/socials/kofi.png" alt="Ko-Fi"></span></a> -->
 					</aside>
 				</nav>
 			</div>
@@ -80,5 +78,22 @@
 			</div>
 		</footer>
 	</main>
+	<script>
+	document.querySelector('.button[data-clipboard-text="Drixevel"]').addEventListener('click', function() {
+		var text = this.getAttribute('data-clipboard-text');
+		var input = document.createElement('input');
+		input.value = text;
+		document.body.appendChild(input);
+		input.select();
+		document.execCommand('copy');
+		document.body.removeChild(input);
+
+		var tooltip = this.querySelector('.tooltip');
+		tooltip.style.display = 'block';
+		setTimeout(function() {
+			tooltip.style.display = 'none';
+		}, 2000);
+	});
+	</script>
 </body>
 </html>
