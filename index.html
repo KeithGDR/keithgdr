@@ -27,21 +27,19 @@
 					</picture>
 				</a>
 				<header class="title">
-					<a href="/about.html"><h1>Drixevel (DRIKS-eh-vel)</h1></a>
+					<h1>Drixevel[.DEV]</h1>
 				</header>
 				<section class="description">
 					<h3>Game Developer/Modder & 3D Artist</h3>
 				</section>
 				<nav>
 					<aside class="socials">
-						<a href="https://reddit.com/user/drixevel-dev"><span class="button"><img src="images/socials/reddit.png" alt="Reddit"></span></a>
+						<a href="https://drixevel.itch.io/"><span class="button"><img src="images/socials/itch.png" alt="Itch"></span></a>
 						<a href="https://x.com/drixevel"><span class="button"><img src="images/socials/x.png" alt="X"></span></a>
 						<a href="https://youtube.com/@Drixevel/"><span class="button"><img src="images/socials/youtube.png" alt="YouTube"></span></a>
 						<a href="https://twitch.tv/drixevel"><span class="button"><img src="images/socials/twitch.png" alt="Twitch"></span></a>
 						<a href="https://github.com/drixevel-dev"><span class="button"><img src="images/socials/github.png" alt="Github"></span></a>
-						<a href="https://drixevel.itch.io/"><span class="button"><img src="images/socials/itch.png" alt="Itch"></span></a>
 						<a href="https://steamcommunity.com/id/drixevel/"><span class="button"><img src="images/socials/steam.png" alt="Steam"></span></a>
-						<a href="https://open.spotify.com/user/12181748196?si=RCWDZ1mKSVeM-e0IlgvWyQ"><span class="button"><img src="images/socials/spotify.png" alt="Spotify"></span></a>
 						<span class="button" data-clipboard-text="Drixevel" title="Click to copy 'Drixevel'">
 							<img src="images/socials/discord.png" alt="Discord">
 							<span class="tooltip" style="display: none;">Username Copied</span>
@@ -51,7 +49,7 @@
 				</nav>
 			</div>
 		</header>
-		<section>
+		<!-- <section>
 			<div class="sub-container">
 				<header class="title">
 					<h1>Projects</h1>
@@ -59,23 +57,23 @@
 				<div class="row row-cols-1 row-cols-md-2 g-4">
 					<div class="projects">
 						<div class="col">
-							<!-- <div class="card">
+							<div class="card">
 								<a href="#"><img src="images/projects/comingsoon.png" class="card-img-top" alt="Coming Soon"></a>
 								<div class="card-body">
 									<a href="#"><h5 class="card-title">1) Coming Soon</h5></a>
 								</div>
-							</div> -->
+							</div>
 							<div class="card">
-								<a href="#"><img src="images/projects/comingsoon.png" class="card-img-top" alt="Control Clearance"></a>
+								<a href="#"><img src="images/projects/comingsoon.png" class="card-img-top" alt="Coming Soon"></a>
 								<div class="card-body">
-									<a href="#"><h5 class="card-title">1) Control Clearance</h5></a>
+									<a href="#"><h5 class="card-title">1) Coming Soon</h5></a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<footer>
 			<div class="sub-container">
 				<header class="footer">
@@ -83,6 +81,23 @@
 				</header>
 			</div>
 		</footer>
+		<!-- Add a placeholder for the Twitch embed -->
+		<div id="twitch-embed"></div>
+
+		<!-- Load the Twitch embed JavaScript file -->
+		<script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+		<!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+		<script type="text/javascript">
+		new Twitch.Embed("twitch-embed", {
+			width: 1600,
+			height: 900,
+			channel: "drixevel",
+			muted: true,
+			allowfullscreen: true,
+			autoplay: true
+		});
+		</script>
 	</main>
 	<script>
 	document.querySelector('.button[data-clipboard-text="Drixevel"]').addEventListener('click', function() {
