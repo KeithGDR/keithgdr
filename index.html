@@ -40,10 +40,7 @@
 						<a href="https://twitch.tv/drixevel"><span class="button"><img src="images/socials/twitch.png" alt="Twitch"></span></a>
 						<a href="https://github.com/drixevel-dev"><span class="button"><img src="images/socials/github.png" alt="Github"></span></a>
 						<a href="https://steamcommunity.com/id/drixevel/"><span class="button"><img src="images/socials/steam.png" alt="Steam"></span></a>
-						<span class="button" data-clipboard-text="Drixevel" title="Click to copy 'Drixevel'">
-							<img src="images/socials/discord.png" alt="Discord">
-							<span class="tooltip" style="display: none;">Username Copied</span>
-						</span>
+						<a href="https://discord.gg/ZddSQvYbZm"><span class="button"><img src="images/socials/discord.png" alt="Discord"></span></a>
 						<a href="mailto:contact@drixevel.dev"><span class="button"><img src="images/socials/email.png" alt="Email"></span></a>
 					</aside>
 				</nav>
@@ -99,22 +96,5 @@
 		});
 		</script>
 	</main>
-	<script>
-	document.querySelector('.button[data-clipboard-text="Drixevel"]').addEventListener('click', function() {
-		var text = this.getAttribute('data-clipboard-text');
-		var input = document.createElement('input');
-		input.value = text;
-		document.body.appendChild(input);
-		input.select();
-		document.execCommand('copy');
-		document.body.removeChild(input);
-
-		var tooltip = this.querySelector('.tooltip');
-		tooltip.style.display = 'block';
-		setTimeout(function() {
-			tooltip.style.display = 'none';
-		}, 2000);
-	});
-	</script>
 </body>
 </html>
