@@ -1,6 +1,6 @@
-Skills
+Languages
 ======
-[![My Skills](https://skillicons.dev/icons?i=blender,bootstrap,c,cs,cpp,cloudflare,css,discord,bots,dotnet,electron,express,flask,gamemakerstudio,git,github,gmail,go,godot,html,js,linux,lua,mysql,nginx,nodejs,php,py,twitter,unity,unreal,visualstudio,vscode,)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c,cs,cpp,css,dotnet,go,html,js,lua,php,py)](https://skillicons.dev)
 
 Statistics
 ======
